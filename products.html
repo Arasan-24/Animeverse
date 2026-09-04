@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeVerse - Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">ANIMEVERSE</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="search-filter">
+      <input type="text" id="search-input" placeholder="Search products...">
+      <select id="category-filter">
+        <option value="All">All Categories</option>
+        <option value="Fashion">Fashion</option>
+        <option value="Toys">Toys</option>
+        <option value="Accessories">Accessories</option>
+      </select>
+    </div>
+
+    <div class="product-grid" id="all-products"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 AnimeVerse Store.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+const products = [
+  { id: 1, name: "Blue Lock Football", category: "Toys", price: 2500, image: "https://preview.redd.it/kaisegg-blue-lock-ball-v0-w8cvq3qt2vdf1.jpg?width=640&crop=smart&auto=webp&s=a8bc012bb35b7aafa7a87411f25a7cf1108dca4d", description: "Official Egoist Training Ball." },
+  { id: 2, name: "Itoshi Sae Jersey", category: "Fashion", price: 300, image: "https://i.etsystatic.com/53899375/r/il/fe102c/6531729356/il_fullxfull.6531729356_b8p3.jpg", description: "Real Madrid Youth Star #10 Jersey." },
+  { id: 3, name: "Itoshi Rin Jersey", category: "Fashion", price: 150, image: "https://i.etsystatic.com/53899375/r/il/10f228/7580338915/il_fullxfull.7580338915_1h4m.jpg", description: "Blue Lock Eleven Top Scorer Shirt." },
+  { id: 4, name: "Coffee Mug", category: "Accessories", price: 750, image: "https://rukminim3.flixcart.com/image/480/640/xif0q/mug/m/z/a/cute-anime-girl-ceramic-coffee-mug-kawaii-cartoon-design-gift-original-imahjvamfke6qjyx.jpeg?q=90", description: "Classic Salvador Dali Prop Mask." },
+  { id: 5, name: "Naruto Keychain", category: "Accessories", price: 250, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzmOV9PB9bh1mS3_DwFdNde9sctIWhw2J6bTRm0aPjxKIoXkhFulFycGU9&s=10", description: "Guard Token Keychain Set." },
+  { id: 6, name: "One piece Printed T-Shirt", category: "Fashion", price: 700, image: "https://m.media-amazon.com/images/I/91WPfpOt0bL._AC_UY1100_.jpg", description: "100% Cotton." },
+  { id: 7, name: "Gear 5 Luffy Toy", category:"Toys", price: 950, image:"https://m.media-amazon.com/images/I/61DaToq1yDL._AC_UF1000,1000_QL80_.jpg", description:"He is king of Pirates"}
+];
